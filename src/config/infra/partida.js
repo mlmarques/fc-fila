@@ -1,1 +1,0 @@
-[{"jogador1":"","jogador2":"","status":"aguardando","date_limit":""}]
