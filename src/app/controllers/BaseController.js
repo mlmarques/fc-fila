@@ -2,8 +2,11 @@
 class BaseController {
 
     static index() {
-        return (req, resp) => {  
-          resp.marko(require('../views/base/index.marko'));
+        return (req, resp) => {
+          resp.marko(require('../views/base/index.marko'),
+          { 
+            session: req.session = {nome : "ricardinho"}
+          })
         };
     }
 
