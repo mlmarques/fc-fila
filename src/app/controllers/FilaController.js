@@ -5,7 +5,10 @@ class FilaController {
     
     static index() {
         return (req, resp) => {
-            resp.send(fila.players);
+            resp.marko(require('../views/home.marko'), 
+            {
+                fila: fila.players 
+            });
         };
     }
 
