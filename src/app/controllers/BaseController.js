@@ -2,7 +2,7 @@
 class BaseController {
 
     static index() {
-        return (req, resp) => {
+        return (req, resp) => {  
           resp.marko(require('../views/base/index.marko'));
         };
     }
