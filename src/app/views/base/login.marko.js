@@ -19,7 +19,7 @@ function render(input, out, __component, component, state) {
 
   component_globals_tag({}, out);
 
-  out.w("<a href=\"https://slack.com/oauth/authorize?scope=identity.basic&amp;client_id=78682276946.629095647621&amp;redirect_uri=https://ps4-fcamara.herokuapp.com/app/callback.php\"><img src=\"https://api.slack.com/img/sign_in_with_slack.png\"></a>");
+  out.w("<a href=\"https://slack.com/oauth/authorize?scope=identity.basic&amp;client_id=78682276946.629095647621&amp;redirect_uri=http://localhost:3000/config\"><img src=\"https://api.slack.com/img/sign_in_with_slack.png\"></a>");
 
   init_components_tag({}, out);
 
