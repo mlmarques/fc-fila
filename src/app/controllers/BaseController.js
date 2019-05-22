@@ -38,7 +38,7 @@ class BaseController {
         ).then((response) => {
           return response.data.user.name;
         }).catch((error) => {
-            return error;
+            return error; // 
         });
     } 
     
